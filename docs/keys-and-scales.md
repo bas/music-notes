@@ -230,7 +230,7 @@ The notes are A, B, C, D, E, F, G, A.
 ```
 G|---------------|
 D|---------5-7---|
-A|---5-6-8-------|
+A|---5-7-8-------|
 E|-5-7-8---------|
 ```
 
@@ -242,7 +242,7 @@ Here is a very common way to play **C minor** starting on the 3rd fret of the A 
 The notes are C, D, E♭, F, G, A♭, B♭, C.
 ```
 G|-----------3-5-|
-D|-----3-5-6-----|
+D|-------3-5-6---|
 A|-3-5-6---------|
 E|---------------|
 ```
@@ -257,7 +257,7 @@ The notes are A, B, C, D, E, F, G, A.
 ```
 G|---------------|
 D|---------5-7---|
-A|---5-6-8-------|
+A|---5-7-8-------|
 E|-5-7-8---------|
 ```
 
@@ -269,7 +269,7 @@ The notes are A, B, C, D, E, F, **G♯**, A.
 ```
 G|---------------|
 D|---------6-7---|
-A|---5-6-8-------|
+A|---5-7-8-------|
 E|-5-7-8---------|
 ```
 That jump from the 6th note (F) to the raised 7th (G♯) creates the distinctive, almost exotic sound of the harmonic minor.
