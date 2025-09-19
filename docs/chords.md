@@ -1,6 +1,24 @@
 # Creating Bass Lines with Chords
 
-Understanding chords is the key to unlocking your creativity on the bass. While a guitarist or pianist plays full chords, a bass player's job is to **outline the harmony** and create a strong rhythmic and melodic foundation. This is done by using the notes within the chord, known as **chord tones**.
+Understanding chords is the key to unlocking your crea  G Major (G-D-G-D)         C Major (C-G-C-G)
+  1   2   3   4             1   2   3   4
+G|-------------------------|-------------------------|
+D|-----5-------5-----------|----10------10-----------|
+A|---------5-------5-------|--------10------10-------|
+E|-3-----------------------|-8-----------------------|
+
+  D Major (D-A-D-A)         G Major (G-D-G-D)
+  1   2   3   4             1   2   3   4
+G|-------------------------|-------------------------|
+D|-----7-------7-----------|-----5-------5-----------|
+A|-5-------5-------5-------|---------5-------5-------|
+E|-------------------------|-3-----------------------|
+```
+
+In this corrected example, the bass line consistently outlines each chord with a four-note pattern:
+*   **G Major:** Plays G (root), D (5th), G (octave), and D (5th).
+*   **C Major:** Plays C (root), G (5th), C (octave), and G (5th).
+*   **D Major:** Plays D (root), A (5th), D (octave), and A (5th). While a guitarist or pianist plays full chords, a bass player's job is to **outline the harmony** and create a strong rhythmic and melodic foundation. This is done by using the notes within the chord, known as **chord tones**.
 
 This guide will teach you how to move beyond playing just the root note and start creating interesting bass lines using arpeggios and walking bass techniques.
 
@@ -44,7 +62,7 @@ You can use this pattern to create a simple but effective bass line over a C Maj
 ```
   C (root)   E (3rd)    G (5th)    E (3rd)
 G|---------------------------------------|
-D|------------5----------5---------------|
+D|------------2----------5--------2------|
 A|--3------------------------------------|
 E|---------------------------------------|
 ```
@@ -71,7 +89,7 @@ Notice the fingering for the arpeggio itself doesn't change, but the notes and t
 ```
   C (root)  E♭ (b3rd)   G (5th)   E♭ (b3rd)
 G|---------------------------------------|
-D|-----------5-----------5---------------|
+D|-----------1-----------5--------1------|
 A|--3------------------------------------|
 E|---------------------------------------|
 ```
@@ -80,29 +98,34 @@ E|---------------------------------------|
 
 ## Putting It All Together: A I-IV-V Progression
 
-Let's apply these concepts to one of the most common chord progressions in all of music: the **I-IV-V** progression. In the key of G, this would be G Major (I), C Major (IV), and D Major (V).
+Let's apply these concepts to one of the most common chord progressions in music: the **I-IV-V**. In the key of G major, the chords are **G (I)**, **C (IV)**, and **D (V)**.
 
-We'll create a bass line that uses arpeggios to outline each chord.
+We'll create a simple and effective bass line that uses the root, fifth, and octave to clearly outline each chord change. This is a fundamental pattern used in countless rock, pop, and country songs.
 
 **Chord Progression:** | G Major | C Major | D Major | G Major |
 
 ```
-  G Major (G-B-D)           C Major (C-E-G)
+  G Major (G-D-G)           C Major (C-G-C)
   1   2   3   4             1   2   3   4
-G|-------------------------|-------------------------|
-D|-----5---5---------------|-------------------------|
-A|-------------5-----------|-----3---3---------------|
-E|-3---------------3-------|-3-----------3-----------|
+G|-------------------------|-----5-------------------|
+D|-----5-------------------|---------5---------------|
+A|---------5---------------|-3-----------------------|
+E|-3-----------------------|-------------------------|
 
-  D Major (D-F#-A)          G Major (G-B-D)
+  D Major (D-A-D)           G Major (G-D-G)
   1   2   3   4             1   2   3   4
 G|-------------------------|-------------------------|
-D|-----7---7---------------|-----5---5---------------|
-A|-5-----------5-----------|-------------5-----------|
-E|-----------------5-------|-3---------------3-------|
+D|-----7-------------------|-----5-------------------|
+A|-5-------7---------------|---------5---------------|
+E|-------------------------|-3-----------------------|
 ```
 
-In this example, we are using the root, fifth, and octave of each chord to create a solid, driving bass line that perfectly outlines the harmony.
+In this corrected example, the bass line consistently outlines each chord with a three-note pattern:
+*   **G Major:** Plays G (root), D (5th), and G (octave).
+*   **C Major:** Plays C (root), G (5th), and C (octave).
+*   **D Major:** Plays D (root), A (5th), and D (octave).
+
+This pattern provides a strong, driving pulse while perfectly supporting the song's harmony.
 
 ---
 
