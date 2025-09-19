@@ -55,7 +55,7 @@ A Minor Third is one half-step smaller than a Major Third. It is the distance fr
 *   **On the Bass:** A common shape for a minor third is to go up one string and back two frets.
     ```
     G|-------|
-    D|---1---| (Eb)
+    D|---1---| (E♭)
     A|---3---| (C)
     E|-------|
     ```
@@ -130,7 +130,7 @@ Sevenths add a layer of complexity and tension to chords. They are essential for
     ```
 *   **Minor Seventh (m7 or ♭7):** A "cooler," more bluesy sound. This is one of the most common intervals in pop, rock, and funk. It's a whole step (two frets) below the octave.
     ```
-    G|---3---| (Bb)
+    G|---3---| (B♭)
     D|-------|
     A|---3---| (C)
     E|-------|
