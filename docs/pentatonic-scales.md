@@ -50,9 +50,9 @@ The notes are A, C, D, E, G, A.
 
 Here is one way to play it on the bass (the classic "box" shape):
 ```
-G|-----------5-7--|
-D|-------5-7------|
-A|-5-8------------|
+G|----------------|
+D|---------2-5----|
+A|-0-3-5-7-------|
 E|----------------|
 ```
 
