@@ -17,6 +17,8 @@ While care has been taken to ensure accuracy, please be aware that as an AI-assi
 - [Intervals](./docs/intervals.md)
 - [Modes](./docs/modes.md)
 - [Pentatonic Scales](./docs/pentatonic-scales.md)
+- [Chords](./docs/chords.md)
+- [Seventh Chords](./docs/seventh-chords.md)
 
 ## Development
 
