@@ -21,11 +21,11 @@ const STRING_NOTES: { [str: string]: number } = {
 // Function to normalize enharmonic equivalents
 const normalizeNote = (note: string): string => {
   const enharmonicMap: { [key: string]: string } = {
-    'C♯': 'D♭', 'D♭': 'D♭',
-    'D♯': 'E♭', 'E♭': 'E♭', 
-    'F♯': 'G♭', 'G♭': 'G♭',
-    'G♯': 'A♭', 'A♭': 'A♭',
-    'A♯': 'B♭', 'B♭': 'B♭'
+    'C♯': 'D♭', 'C#': 'D♭', 'D♭': 'D♭', 'Db': 'D♭',
+    'D♯': 'E♭', 'D#': 'E♭', 'E♭': 'E♭', 'Eb': 'E♭', 
+    'F♯': 'G♭', 'F#': 'G♭', 'G♭': 'G♭', 'Gb': 'G♭',
+    'G♯': 'A♭', 'G#': 'A♭', 'A♭': 'A♭', 'Ab': 'A♭',
+    'A♯': 'B♭', 'A#': 'B♭', 'B♭': 'B♭', 'Bb': 'B♭'
   };
   return enharmonicMap[note] || note;
 };
@@ -99,21 +99,19 @@ describe.each(files)('TAB Examples in %s', (file) => {
   for (let i = 0; i < sections.length; i++) {
     const section = sections[i];
     if (section && section.includes('The notes are')) {
-      const nextSection = sections[i + 1];
-      
-      if (nextSection) {
-        const notesMatch = section.match(/The notes are ([^.]+)\./);
-        if (notesMatch && notesMatch[1]) {
-          const expectedNotes = notesMatch[1]
-            .split(', ')
-            .map(note => note.trim())
-            .map(note => note.replace(/\*\*/g, '')); // Remove markdown bold formatting
-          testCases.push({
-            name: `should have correct notes for the TAB for notes ${expectedNotes.join(', ')}`,
-            expectedNotes,
-            tab: nextSection,
-          });
-        }
+      // The TAB is in the same section, not the next section
+      const notesMatch = section.match(/The notes are ([^.]+)\./);
+      if (notesMatch && notesMatch[1]) {
+        const expectedNotes = notesMatch[1]
+          .split(', ')
+          .map(note => note.trim())
+          .map(note => note.replace(/\*\*/g, '')); // Remove markdown bold formatting
+        
+        testCases.push({
+          name: `should have correct notes for the TAB for notes ${expectedNotes.join(', ')}`,
+          expectedNotes,
+          tab: section, // Use the same section, not next section
+        });
       }
     }
   }
@@ -136,10 +134,23 @@ describe.each(files)('TAB Examples in %s', (file) => {
       
       // The first note in the tab should be the root note
       expect(normalizedTabNotes[0]).toBe(normalizedExpectedNotes[0]);
-      // All notes in the tab should be present in the expected notes
-      normalizedTabNotes.forEach(note => {
-        expect(normalizedExpectedNotes).toContain(note);
+      
+      // Check that we have the correct number of unique notes
+      const uniqueTabNotes = [...new Set(normalizedTabNotes)];
+      const uniqueExpectedNotes = [...new Set(normalizedExpectedNotes)];
+      
+      // All expected notes should be present in the tab
+      uniqueExpectedNotes.forEach(expectedNote => {
+        expect(uniqueTabNotes).toContain(expectedNote);
       });
+      
+      // All notes in the tab should be expected notes
+      uniqueTabNotes.forEach(tabNote => {
+        expect(uniqueExpectedNotes).toContain(tabNote);
+      });
+      
+      // Should have the same number of unique notes
+      expect(uniqueTabNotes.length).toBe(uniqueExpectedNotes.length);
     }
   });
 });

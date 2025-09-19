@@ -127,7 +127,7 @@ This table summarizes the entire process, showing the single note that changes a
 | :--------- | :------------------------ | :-------------------------------- | :--------------------------------- |
 | **Lydian** | (Brightest Starting Point)  | C D E **F#** G A B                | Major with a **sharp 4th**         |
 | **Ionian** | Flatten the 4th           | C D E **F** G A B                 | The Major Scale                    |
-| **Mixolydian**| Flatten the 7th           | C D E F G A **Bb**                | Major with a **flat 7th**          |
+| **Mixolydian**| Flatten the 7th           | C D E F G A **B♭**                | Major with a **flat 7th**          |
 | **Dorian** | Flatten the 3rd           | C D **Eb** F G A Bb               | Minor with a **major 6th**         |
 | **Aeolian**| Flatten the 6th           | C D Eb F G **Ab** Bb              | The Natural Minor Scale            |
 | **Phrygian**| Flatten the 2nd           | C **Db** Eb F G Ab Bb             | Minor with a **flat 2nd**          |
