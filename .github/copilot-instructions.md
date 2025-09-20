@@ -48,7 +48,7 @@ A|-11-12-14----------------|
 E|-12-14-------------------|
 ```
 
-In general avoid open strings in the example, so for example when tasked to do a F# dorian scale do this:
+In general, avoid using open strings in your examples. For instance, when asked to write a F# dorian scale, do this:
 
 **Notes:** F#, G#, A, B, C#, D#, E, F#
 
