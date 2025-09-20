@@ -21,8 +21,8 @@ Lydian is a major mode that sounds even brighter or more "magical" than a standa
 *   **Formula:** W-W-W-H-W-W-H
 *   **TAB:**
     ```tab
-    G|--------------4-5--|
-    D|--------2-4-5-7----|
+    G|------------2-4-5--|
+    D|--------2-4-5------|
     A|--3-5--------------|
     E|-------------------|
     ```
@@ -49,8 +49,8 @@ To get from Ionian to Mixolydian, we **flatten the 7th degree** (B becomes B♭)
 *   **Formula:** W-W-H-W-W-H-W
 *   **TAB:**
     ```tab
-    G|--------------3-5--|
-    D|--------3-5-7------|
+    G|------------2-3-5--|
+    D|--------3-5--------|
     A|--3-5-7------------|
     E|-------------------|
     ```
@@ -63,8 +63,8 @@ To get from Mixolydian to Dorian, we **flatten the 3rd degree** (E becomes E♭)
 *   **Formula:** W-H-W-W-W-H-W
 *   **TAB:**
     ```tab
-    G|--------------3-5--|
-    D|--------3-5-7------|
+    G|------------2-3-5--|
+    D|--------3-5--------|
     A|--3-5-6------------|
     E|-------------------|
     ```
