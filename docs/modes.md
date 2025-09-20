@@ -50,8 +50,8 @@ To get from Ionian to Mixolydian, we **flatten the 7th degree** (B becomes B♭)
 *   **TAB:**
     ```tab
     G|------------2-3-5--|
-    D|--------3-5--------|
-    A|--3-5-7------------|
+    D|------2-3-5--------|
+    A|--3-5--------------|
     E|-------------------|
     ```
 
@@ -64,8 +64,8 @@ To get from Mixolydian to Dorian, we **flatten the 3rd degree** (E becomes E♭)
 *   **TAB:**
     ```tab
     G|------------2-3-5--|
-    D|--------3-5--------|
-    A|--3-5-6------------|
+    D|------1-3-5--------|
+    A|--3-5--------------|
     E|-------------------|
     ```
 
@@ -77,10 +77,10 @@ To get from Dorian to Aeolian, we **flatten the 6th degree** (A becomes A♭). T
 *   **Formula:** W-H-W-W-H-W-W
 *   **TAB:**
     ```tab
-    G|--------------3-5--|
-    D|--------3-5-6------|
-    A|--3-5-6------------|
-    E|-------------------|
+    G|----------1-3-5--|
+    D|------1-3-5------|
+    A|--3-5------------|
+    E|-----------------|
     ```
 
 ### 6. C Phrygian
@@ -91,10 +91,10 @@ To get from Aeolian to Phrygian, we **flatten the 2nd degree** (D becomes D♭).
 *   **Formula:** H-W-W-W-H-W-W
 *   **TAB:**
     ```tab
-    G|--------------3-5--|
-    D|--------3-5-6------|
-    A|--3-4-6------------|
-    E|-------------------|
+    G|----------1-3-5--|
+    D|------1-3-5------|
+    A|--3-4------------|
+    E|-----------------|
     ```
     *(Note: The TAB for C Phrygian and C Aeolian can be identical in this position, the difference is theoretical and in the note names).*
 
