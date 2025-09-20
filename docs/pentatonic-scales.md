@@ -71,3 +71,81 @@ This means that any pentatonic pattern you learn on the fretboard can be used fo
 *   If you play the A Minor Pentatonic pattern but emphasize the **C** notes, you are playing in **C Major Pentatonic**.
 
 This is a fundamental concept that allows you to get a huge amount of mileage out of just a few scale shapes.
+
+### Example: C Major and A Minor
+
+Let's look at this in practice. Here is a simple bass line using the notes of the **C Major Pentatonic scale**. The line feels bright and happy because it starts and ends on **C**, establishing it as the root note.
+
+**Notes:** C, D, E, G, A, C
+
+```tab
+  C Major Pentatonic
+  1   &   2   &   3   &   4   &
+G|---------------------------------|
+D|-----------2---5-----------------|
+A|---3---5-----------5---3---------|
+E|---------------------------------|
+```
+
+Now, let's play the **exact same notes** but treat **A** as our root. Notice how the feel completely changes. The line now sounds darker and more serious, because we are hearing it as **A Minor Pentatonic**.
+
+**Notes:** A, C, D, E, G, A
+
+```tab
+  A Minor Pentatonic
+  1   &   2   &   3   &   4   &
+G|---------------------------------|
+D|---------------2-----------------|
+A|---0---3---5-------5---3---0-----|
+E|---------------------------------|
+```
+
+By simply changing the root note, you can transform the mood of your bass line without learning a new scale shape. This is a powerful tool for improvisation and songwriting.
+
+---
+
+### Visualizing The "Box Shape"
+
+A table is an excellent way to visualize a scale shape. The following table shows the most common and recognizable shape for the minor pentatonic scale, often called the "box shape."
+
+It's important to understand the difference between the **five unique notes** in the scale and the **playable shape** on the fretboard. The shape shows you all the available notes within that position, which naturally includes octaves to make it a complete, usable pattern.
+
+### A Minor Pentatonic - The Box Shape
+
+Here are the notes of the **A Minor Pentatonic scale** (A, C, D, E, G) laid out in the classic "box shape" starting on the 5th fret.
+
+| String | Fret 5 | Fret 6 | Fret 7 | Fret 8 |
+| :----: | :----: | :----: | :----: | :----: |
+| **G**  |        |        |        |        |
+| **D**  |   `5`  |        |   `7`  |        |
+| **A**  |   `5`  |        |   `7`  |        |
+| **E**  |   `5`  |        |        |   `8`  |
+
+**Note Breakdown (in order of appearance on the fretboard):**
+*   **A** (Root): E string, 5th fret
+*   **C** (b3): E string, 8th fret
+*   **D** (4th): A string, 5th fret
+*   **E** (5th): A string, 7th fret
+*   **G** (b7): D string, 5th fret
+*   **A** (Octave of Root): D string, 7th fret
+
+### The Same Shape, New Key: G Minor
+
+Now, let's take that exact same "stencil" and move it down two frets to play **G Minor Pentatonic**. The root note is now G (3rd fret on the E string). The shape is identical.
+
+| String | Fret 3 | Fret 4 | Fret 5 | Fret 6 |
+| :----: | :----: | :----: | :----: | :----: |
+| **G**  |        |        |        |        |
+| **D**  |   `3`  |        |   `5`  |        |
+| **A**  |   `3`  |        |   `5`  |        |
+| **E**  |   `3`  |        |        |   `6`  |
+
+**Note Breakdown (in order of appearance on the fretboard):**
+*   **G** (Root): E string, 3rd fret
+*   **Bb** (b3): E string, 6th fret
+*   **C** (4th): A string, 3rd fret
+*   **D** (5th): A string, 5th fret
+*   **F** (b7): D string, 3rd fret
+*   **G** (Octave of Root): D string, 5th fret
+
+Notice that the geometric pattern of the filled cells is identical. This principle is fundamental to mastering the bass fretboard: learn a shape once, and you can use it in all 12 keys.
