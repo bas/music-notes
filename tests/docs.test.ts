@@ -98,8 +98,10 @@ describe.each(files)('TAB Examples in %s', (file) => {
 
   for (let i = 0; i < sections.length; i++) {
     const section = sections[i];
+    
+    // Check for both old format (with "The notes are") and new format (with ```tab)
     if (section && section.includes('The notes are')) {
-      // The TAB is in the same section, not the next section
+      // Old format: The TAB is in the same section
       const notesMatch = section.match(/The notes are ([^.]+)\./);
       if (notesMatch && notesMatch[1]) {
         const expectedNotes = notesMatch[1]
@@ -110,8 +112,30 @@ describe.each(files)('TAB Examples in %s', (file) => {
         testCases.push({
           name: `should have correct notes for the TAB for notes ${expectedNotes.join(', ')}`,
           expectedNotes,
-          tab: section, // Use the same section, not next section
+          tab: section, // Use the same section
         });
+      }
+    } else if (section && section.startsWith('tab\n')) {
+      // New format: ```tab block, look for notes in the previous section
+      const previousSection = sections[i - 1];
+      if (previousSection) {
+        // Look for various note patterns in the previous section
+        const notesMatch = previousSection.match(/The notes are ([^.]+)\./) ||
+                          previousSection.match(/\*\*Notes:\*\* ([^*\n]+)/) ||
+                          previousSection.match(/Notes: ([^.]+)/);
+        
+        if (notesMatch && notesMatch[1]) {
+          const expectedNotes = notesMatch[1]
+            .split(/[,]/) // Split on comma
+            .map(note => note.trim())
+            .map(note => note.replace(/\*\*/g, '')); // Remove markdown formatting
+          
+          testCases.push({
+            name: `should have correct notes for the TAB for notes ${expectedNotes.join(', ')}`,
+            expectedNotes,
+            tab: section.substring(4), // Remove 'tab\n' prefix
+          });
+        }
       }
     }
   }
