@@ -19,6 +19,7 @@ While care has been taken to ensure accuracy, please be aware that as an AI-assi
 - [Pentatonic Scales](./docs/pentatonic-scales.md)
 - [Chords](./docs/chords.md)
 - [Seventh Chords](./docs/seventh-chords.md)
+- [The 12-Bar Blues Progression](./docs/twelve-bar-blues.md)
 
 ## Development
 
