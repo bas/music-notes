@@ -134,3 +134,44 @@ This table summarizes the entire process, showing the single note that changes a
 | **Locrian**| Flatten the 5th           | C Db Eb F **Gb** Ab Bb C            | Minor with a **flat 2nd & flat 5th** |
 
 This sequence is a powerful tool. If you know the fretboard pattern for any mode, you can find any other parallel mode just by moving one note up or down a single fret. It demystifies the modes and turns them into a logical, interconnected system.
+
+---
+
+### Visualizing A Movable Mode Shape: Dorian
+
+Just like major and minor scales, each mode has a unique geometric shape that can be moved to any starting note. Once you learn the shape for a mode, you can play it in any key.
+
+Let's use the **Dorian mode** as our example. It's a minor-flavored mode with a "cool" or "jazzy" sound, thanks to its major 6th.
+
+#### The Dorian Mode Shape
+
+Here is a common, comfortable shape for the Dorian mode. We'll use **C Dorian** as our example, with the root on the 3rd fret of the A string.
+
+| String | Fret 1 | Fret 2 | Fret 3 | Fret 4 | Fret 5 |
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| **G**  |        |        |   `3`  |        |   `5`  |
+| **D**  |        |        |   `3`  |        |   `5`  |
+| **A**  |        |        |   `3`  |        |   `5`  |
+| **E**  |        |        |   `3`  |        |   `5`  |
+
+**Note Breakdown (C Dorian):**
+*   **C** (Root): A string, 3rd fret
+*   **D** (2nd): A string, 5th fret
+*   **E♭** (b3): D string, 3rd fret
+*   **F** (4th): D string, 5th fret
+*   **G** (5th): G string, 3rd fret
+*   **A** (6th): G string, 5th fret
+*   The pattern also includes the b7 (B♭) and the octave (C) on the E string.
+
+#### The Same Shape, New Key: D Dorian
+
+To play in **D Dorian**, we simply move that entire shape up two frets so the root is on D (5th fret of the A string).
+
+| String | Fret 3 | Fret 4 | Fret 5 | Fret 6 | Fret 7 |
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| **G**  |        |        |   `5`  |        |   `7`  |
+| **D**  |        |        |   `5`  |        |   `7`  |
+| **A**  |        |        |   `5`  |        |   `7`  |
+| **E**  |        |        |   `5`  |        |   `7`  |
+
+As you can see, the geometric shape is identical. This is the power of movable shapes: learn one pattern for Dorian, and you can play it in all 12 keys just by moving it to the correct starting note.

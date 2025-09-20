@@ -151,6 +151,40 @@ The **Perfect Fourth** is the inverse of the Perfect Fifth. It's a very common i
 
 ---
 
+### Visualizing Interval Shapes from a Root Note
+
+Instead of thinking about each interval as a separate movement, you can visualize the most common intervals as a single, movable shape relative to a root note. This allows you to quickly find the notes you need to build chords and arpeggios, no matter where you are on the fretboard.
+
+#### A Common Interval Map: The Dominant Shape
+
+Let's map out some of the most useful intervals from a single root note: the Major Third (3), the Perfect Fifth (5), the Minor Seventh (♭7), and the Octave (8). This pattern is incredibly versatile and forms the basis of dominant 7th chords. Here it is for a **C root** (A string, 3rd fret).
+
+| String | Fret 2 | Fret 3 | Fret 4 | Fret 5 |
+| :----: | :----: | :----: | :----: | :----: |
+| **G**  |        | `♭7`   |        |  `8`   |
+| **D**  |  `3`   |        |        |  `5`   |
+| **A**  |        |  `R`   |        |        |
+| **E**  |        |        |        |        |
+
+**Note Breakdown (from C):**
+*   **R (Root):** C (A string, 3rd fret)
+*   **3 (Major Third):** E (D string, 2nd fret)
+*   **5 (Perfect Fifth):** G (D string, 5th fret)
+*   **♭7 (Minor Seventh):** B♭ (G string, 3rd fret)
+*   **8 (Octave):** C (G string, 5th fret)
+
+#### The Same Shape, New Key: G Root
+
+Now, let's move that entire shape so the root is on **G** (E string, 3rd fret). The relationship between the notes (the intervals) stays exactly the same.
+
+| String | Fret 2 | Fret 3 | Fret 4 | Fret 5 |
+| :----: | :----: | :----: | :----: | :----: |
+| **D**  |        | `♭7`   |        |  `8`   |
+| **A**  |  `3`   |        |        |  `5`   |
+| **E**  |        |  `R`   |        |        |
+
+This movable map is a powerful tool for seeing the harmonic possibilities around any root note.
+
 ## Common Shapes: Arpeggios
 
 An **arpeggio** is simply playing the notes of a chord one at a time. Practicing arpeggios is the best way to internalize the sound and feel of chords on the fretboard.

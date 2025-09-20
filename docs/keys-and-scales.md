@@ -219,6 +219,45 @@ The shape is identical. The relationship between the notes you fret is exactly t
 
 ---
 
+### Visualizing The Major Scale Shape
+
+A table is an excellent way to visualize this movable "stencil." The following table shows a common and comfortable two-octave shape for the major scale.
+
+#### The Major Scale Shape
+
+Here are the notes of the **G Major scale** (G, A, B, C, D, E, F#) laid out in a shape starting on the 3rd fret of the E string.
+
+| String | Fret 2 | Fret 3 | Fret 4 | Fret 5 |
+| :----: | :----: | :----: | :----: | :----: |
+| **G**  |   `2`  |        |   `4`  |   `5`  |
+| **D**  |   `2`  |        |   `4`  |   `5`  |
+| **A**  |   `2`  |   `3`  |        |   `5`  |
+| **E**  |        |   `3`  |        |   `5`  |
+
+**Note Breakdown (in order of appearance):**
+*   **G** (Root): E string, 3rd fret
+*   **A** (2nd): E string, 5th fret
+*   **B** (3rd): A string, 2nd fret
+*   **C** (4th): A string, 3rd fret
+*   **D** (5th): A string, 5th fret
+*   **E** (6th): D string, 2nd fret
+*   **F#** (7th): D string, 4th fret
+*   **G** (Octave): D string, 5th fret
+*   And so on for the second octave...
+
+#### The Same Shape, New Key: A Major
+
+Now, let's move that exact same shape up two frets to play **A Major**. The root note is now A (5th fret on the E string). The shape is identical.
+
+| String | Fret 4 | Fret 5 | Fret 6 | Fret 7 |
+| :----: | :----: | :----: | :----: | :----: |
+| **G**  |   `4`  |        |   `6`  |   `7`  |
+| **D**  |   `4`  |        |   `6`  |   `7`  |
+| **A**  |   `4`  |   `5`  |        |   `7`  |
+| **E**  |        |   `5`  |        |   `7`  |
+
+This demonstrates the power of movable shapes. The exact same fingering pattern can be used for any major key, just by starting on the correct root note.
+
 ### The Movable Natural Minor Scale Pattern
 
 The exact same principle applies to the natural minor scale. Once you learn the pattern (W-H-W-W-H-W-W), you can move it to any root note.

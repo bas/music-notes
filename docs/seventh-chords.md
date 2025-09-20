@@ -99,6 +99,40 @@ E|---------|
 
 ---
 
+### Visualizing The Dominant 7th Arpeggio Shape
+
+The Dominant 7th arpeggio is one of the most important shapes to know, as it's the foundation of blues and funk bass lines. Its unique combination of a major 3rd and a flat 7th creates a sound full of tension and release.
+
+#### The Dominant 7th Shape
+
+Here is a common, movable shape for a Dominant 7th arpeggio. We'll use **G7** as our example, with the root on the 3rd fret of the E string.
+
+| String | Fret 2 | Fret 3 | Fret 4 | Fret 5 |
+| :----: | :----: | :----: | :----: | :----: |
+| **G**  |        |   `3`  |        |   `5`  |
+| **D**  |        |        |   `4`  |        |
+| **A**  |        |        |        |        |
+| **E**  |        |   `3`  |        |        |
+
+**Note Breakdown (G7):**
+*   **G** (Root): E string, 3rd fret
+*   **B** (3rd): D string, 4th fret
+*   **D** (5th): G string, 5th fret
+*   **F** (b7): G string, 3rd fret
+
+#### The Same Shape, New Key: C7
+
+To play a **C7** arpeggio, we simply move that same shape up to the 8th fret of the E string, where our root note is C.
+
+| String | Fret 7 | Fret 8 | Fret 9 | Fret 10 |
+| :----: | :----: | :----: | :----: | :----: |
+| **G**  |        |   `8`  |        |   `10` |
+| **D**  |        |        |   `9`  |        |
+| **A**  |        |        |        |        |
+| **E**  |        |   `8`  |        |        |
+
+This movable shape is a fundamental building block for creating walking bass lines, blues riffs, and funky grooves.
+
 ## Putting It All Together: The II-V-I Progression
 
 The **II-V-I** (two-five-one) progression is the most important chord sequence in jazz and soul. It uses the chords built on the 2nd, 5th, and 1st degrees of the scale. In the key of C Major, this gives us:

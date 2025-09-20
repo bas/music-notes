@@ -78,6 +78,46 @@ E|---------------------------------------|
 
 ---
 
+### Visualizing Arpeggio Shapes
+
+Just like scales, arpeggio patterns can be seen as movable "stencils" or "shapes" on the fretboard. Once you learn a shape, you can move it to any root note to play the arpeggio in any key.
+
+#### The Major Arpeggio Shape
+
+This is a very common and comfortable shape for a major arpeggio (Root, 3rd, 5th). Here it is, shown for **C Major** (Root C at the 3rd fret of the A string).
+
+| String | Fret 2 | Fret 3 | Fret 4 | Fret 5 |
+| :----: | :----: | :----: | :----: | :----: |
+| **G**  |        |        |        |   `5`  |
+| **D**  |   `2`  |        |        |        |
+| **A**  |        |   `3`  |        |        |
+| **E**  |        |        |        |        |
+
+**Note Breakdown:**
+*   **C** (Root): A string, 3rd fret
+*   **E** (3rd): D string, 2nd fret
+*   **G** (5th): G string, 5th fret
+
+If you move this entire shape up two frets to start on D (A string, 5th fret), you are playing a **D Major arpeggio**.
+
+#### The Minor Arpeggio Shape
+
+The minor arpeggio shape is very similar, with only one note changed: the 3rd is flattened. Here is the shape for **C Minor** (Root C at the 3rd fret of the A string).
+
+| String | Fret 1 | Fret 2 | Fret 3 | Fret 4 | Fret 5 |
+| :----: | :----: | :----: | :----: | :----: | :----: |
+| **G**  |        |        |        |        |   `5`  |
+| **D**  |   `1`  |        |        |        |        |
+| **A**  |        |        |   `3`  |        |        |
+| **E**  |        |        |        |        |        |
+
+**Note Breakdown:**
+*   **C** (Root): A string, 3rd fret
+*   **E♭** (b3): D string, 1st fret
+*   **G** (5th): G string, 5th fret
+
+Notice the only difference is that the note on the D string moved down one fret. This single change is what gives the minor arpeggio its sadder quality.
+
 ## Putting It All Together: A I-IV-V Progression
 
 Let's apply these concepts to one of the most common chord progressions in music: the **I-IV-V**. In the key of G major, the chords are **G (I)**, **C (IV)**, and **D (V)**.
