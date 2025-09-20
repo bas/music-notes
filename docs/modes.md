@@ -107,8 +107,8 @@ Finally, to get from Phrygian to Locrian, we **flatten the 5th degree** (G becom
 *   **TAB:**
     ```tab
     G|----------1-3-5--|
-    D|--------3-4------|
-    A|--3-4-6----------|
+    D|------1-3-4------|
+    A|--3-4------------|
     E|-----------------|
     ```
     *(Note: This TAB is one possible fingering for Locrian)*.
