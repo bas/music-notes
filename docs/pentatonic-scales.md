@@ -76,12 +76,12 @@ This is a fundamental concept that allows you to get a huge amount of mileage ou
 
 Let's look at this in practice. Here is a simple bass line using the notes of the **C Major Pentatonic scale**. The line feels bright and happy because it starts and ends on **C**, establishing it as the root note.
 
-**Notes:** C, D, E, G, A, C
+**Notes:** C, D, E, G, A
 
 ```tab
   C Major Pentatonic
   1   &   2   &   3   &   4   &
-G|---------------------------------|
+G|-----------2---5-----------------|
 D|-----------2---5-----------------|
 A|---3---5-----------5---3---------|
 E|---------------------------------|
@@ -89,15 +89,15 @@ E|---------------------------------|
 
 Now, let's play the **exact same notes** but treat **A** as our root. Notice how the feel completely changes. The line now sounds darker and more serious, because we are hearing it as **A Minor Pentatonic**.
 
-**Notes:** A, C, D, E, G, A
+**Notes:** A, C, D, E, G
 
 ```tab
   A Minor Pentatonic
   1   &   2   &   3   &   4   &
 G|---------------------------------|
-D|---------------2-----------------|
-A|---0---3---5-------5---3---0-----|
-E|---------------------------------|
+D|-------5---7---------------------|
+A|-------5---7---------------------|
+E|---5-------8---------------------|
 ```
 
 By simply changing the root note, you can transform the mood of your bass line without learning a new scale shape. This is a powerful tool for improvisation and songwriting.
