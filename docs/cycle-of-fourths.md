@@ -111,5 +111,7 @@ E|---------------------|
 3. **Memorize the sequence** - Learn the note names, not just the fret positions
 4. **Practice in different keys** - Once comfortable with C, try starting from other notes
 5. **Apply to songs** - Look for fourth relationships in songs you know
+6. **Connect scales and chords** - Practice playing scales and their related triads in fourth relationships
+7. **Analyze progressions** - Listen to your favorite songs and identify where fourth movements occur
 
-The cycle of fourths is a powerful tool that will improve your understanding of harmony, help you navigate the fretboard more efficiently, and give you a solid foundation for creating professional-sounding bass lines.
+The cycle of fourths is a powerful tool that will improve your understanding of harmony, help you navigate the fretboard more efficiently, and give you a solid foundation for creating professional-sounding bass lines. By applying it to scales, chords, and progressions, you'll develop a deeper understanding of how music works and become a more versatile bass player.
