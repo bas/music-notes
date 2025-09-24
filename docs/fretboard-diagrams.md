@@ -454,3 +454,73 @@ As a bass player, certain scale degrees have special importance:
 - **7th** - Creates movement and leads smoothly to the next chord's root
 - **2nd and 6th** - Add melodic interest while maintaining stability
 - **4th** - Use carefully as it can clash with major chords, but works well as a passing tone
+
+---
+
+## Appendix: Cycle of Fourths Fretboard Tables
+
+The following tables show the complete cycle of fourths (C → F → B♭ → E♭ → A♭ → D♭ → G♭ → B → E → A → D → G) played on each individual string of the bass guitar. These patterns demonstrate how to play the complete cycle starting from different strings, similar to the TAB examples in the cycle-of-fourths documentation.
+
+### Cycle of Fourths on E String
+
+Starting with C on the E string (8th fret), the complete cycle of fourths:
+
+| Fret  |   1   |   2   |   3   |   4   |   5   |  6  |  7  |  8  |  9  | 10  | 11  | 12  |
+|-------|-------|-------|-------|-------|-------|-----|-----|-----|-----|-----|-----|-----|
+| **G** |       |       |       |       |       |     |     |     |     |     |     |     |
+| **D** |       |       |       |       |       |     |     |     |     |     |     |     |
+| **A** |       |       |       |       |       |     |     |     |     |     |     |     |
+| **E** | **F** |**F♯/G♭**| **G** |**G♯/A♭**| **A** |**A♯/B♭**| **B** | **C** |**C♯/D♭**| **D** |**D♯/E♭**| **E** |
+
+**Cycle sequence:** C(8) → F(1) → B♭(6) → E♭(11) → A♭(4) → D♭(9) → G♭(2) → B(7) → E(12) → A(5) → D(10) → G(3)
+
+### Cycle of Fourths on A String
+
+Starting with C on the A string (3rd fret), the complete cycle of fourths:
+
+| Fret  |   1   |   2   |   3   |   4   |   5   |   6   |  7  |  8  |  9  | 10  | 11  | 12  |
+|-------|-------|-------|-------|-------|-------|-------|-----|-----|-----|-----|-----|-----|
+| **G** |       |       |       |       |       |       |     |     |     |     |     |     |
+| **D** |       |       |       |       |       |       |     |     |     |     |     |     |
+| **A** |**A♯/B♭**| **B** | **C** |**C♯/D♭**| **D** |**D♯/E♭**| **E** | **F** |**F♯/G♭**| **G** |**G♯/A♭**| **A** |
+| **E** |       |       |       |       |       |       |     |     |     |     |     |     |
+
+**Cycle sequence:** C(3) → F(8) → B♭(1) → E♭(6) → A♭(11) → D♭(4) → G♭(9) → B(2) → E(7) → A(12) → D(5) → G(10)
+
+### Cycle of Fourths on D String
+
+Starting with C on the D string (10th fret), the complete cycle of fourths:
+
+| Fret  |   1   |   2   |   3   |   4   |   5   |   6   |  7  |  8  |  9  | 10  | 11  | 12  |
+|-------|-------|-------|-------|-------|-------|-------|-----|-----|-----|-----|-----|-----|
+| **G** |       |       |       |       |       |       |     |     |     |     |     |     |
+| **D** |**D♯/E♭**| **E** | **F** |**F♯/G♭**| **G** |**G♯/A♯**| **A** |**A♯/B♭**| **B** | **C** |**C♯/D♭**| **D** |
+| **A** |       |       |       |       |       |       |     |     |     |     |     |     |
+| **E** |       |       |       |       |       |       |     |     |     |     |     |     |
+
+**Cycle sequence:** C(10) → F(3) → B♭(8) → E♭(1) → A♭(6) → D♭(11) → G♭(4) → B(9) → E(2) → A(7) → D(12) → G(5)
+
+### Cycle of Fourths on G String
+
+Starting with C on the G string (5th fret), the complete cycle of fourths:
+
+| Fret  |   1   |   2   |   3   |   4   |   5   |   6   |  7  |  8  |  9  | 10  | 11  | 12  |
+|-------|-------|-------|-------|-------|-------|-------|-----|-----|-----|-----|-----|-----|
+| **G** |**G♯/A♭**| **A** |**A♯/B♭**| **B** | **C** |**C♯/D♭**|**D** |**D♯/E♭**|**E** | **F** |**F♯/G♭**| **G** |
+| **D** |       |       |       |       |       |       |     |     |     |     |     |     |
+| **A** |       |       |       |       |       |       |     |     |     |     |     |     |
+| **E** |       |       |       |       |       |       |     |     |     |     |     |     |
+
+**Cycle sequence:** C(5) → F(10) → B♭(3) → E♭(8) → A♭(1) → D♭(6) → G♭(11) → B(4) → E(9) → A(2) → D(7) → G(12)
+
+### Understanding the Cycle of Fourths Tables
+
+These tables demonstrate several important concepts:
+
+1. **Complete Cycle Coverage** - Each string can play the entire cycle of fourths within the 12-fret span
+2. **Perfect Fourth Intervals** - Each note in the sequence is exactly 5 semitones (5 frets) higher than the previous note
+3. **String-Specific Patterns** - Each string starts the cycle at a different fret position but follows the same interval pattern
+4. **Fretboard Navigation** - Understanding these patterns helps you move efficiently across the fretboard using fourth relationships
+5. **Harmonic Applications** - Many chord progressions follow fourth relationships, making these patterns practical for bass lines
+
+The cycle of fourths is fundamental to bass playing because it mirrors the instrument's tuning (E-A-D-G are all fourths apart) and appears frequently in musical harmony. Practice these patterns to improve your fretboard knowledge and develop more sophisticated bass lines that utilize fourth relationships.
