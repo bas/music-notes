@@ -229,7 +229,7 @@ const parseTable = (content: string): { string: 'E' | 'A' | 'D' | 'G', fret: num
         if (noteMatch && noteMatch[1]) {
           tableNotes.push({
             string: stringName as 'E' | 'A' | 'D' | 'G',
-            fret: fretColumns[fretIndex] || 0,
+            fret: fretColumns[fretIndex] ?? 0,
             note: noteMatch[1].trim()
           });
         }
