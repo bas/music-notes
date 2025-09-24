@@ -16,6 +16,23 @@ For example, in the C Major scale pattern, you would play:
 - D string: E (fret 2), F (fret 3), G (fret 5)  
 - G string: A (fret 2), B (fret 4), C (fret 5)
 
+### Complete Fretboard Reference
+
+The following table shows all notes across the first 12 frets for standard bass tuning (E-A-D-G):
+
+| Fret  |  1  |   2   |   3   |   4   |   5   |  6  |  7  |  8  |  9  | 10  | 11  | 12  |
+|-------|-----|-------|-------|-------|-------|-----|-----|-----|-----|-----|-----|-----|
+| **G** |**G♯**| **A** |**A♯** | **B** | **C** |**C♯**|**D**|**D♯**|**E**|**F**|**F♯**|**G**|
+| **D** |**D♯**| **E** | **F** |**F♯** | **G** |**G♯**|**A**|**A♯**|**B**|**C**|**C♯**|**D**|
+| **A** |**A♯**| **B** | **C** |**C♯** | **D** |**D♯**|**E**|**F** |**F♯**|**G**|**G♯**|**A**|
+| **E** | **F** |**F♯** | **G** |**G♯** | **A** |**A♯**|**B**|**C** |**C♯**|**D**|**D♯**|**E**|
+
+**Key observations:**
+- Each fret represents a semitone (half-step) increase in pitch
+- At the 12th fret, notes repeat one octave higher than the open strings
+- Sharp notes (♯) can also be called flats (♭): G♯ = A♭, A♯ = B♭, etc.
+- Use this reference to find any note on any string and understand scale patterns
+
 Understanding these scale patterns is fundamental for bass playing as they provide the foundation for:
 - **Melodic bass lines** - Creating interesting walking bass patterns and solos
 - **Harmonic knowledge** - Understanding chord relationships and progressions  
@@ -41,9 +58,9 @@ The following table shows the C major scale pattern starting with C on the 3rd f
 
 ## Pattern Summary
 
-**Notes:** C, D, E, F, G, A, B, C
-**Scale Degrees:** root, 2nd, 3rd, 4th, 5th, 6th, 7th, octave
-**Intervals:** W-W-H-W-W-W-H
+- **Notes:** C, D, E, F, G, A, B, C
+- **Scale Degrees:** root, 2nd, 3rd, 4th, 5th, 6th, 7th, octave
+- **Intervals:** W-W-H-W-W-W-H
 
 **Fret Pattern:**
 - **A string:** frets 3, 5 → **C, D**
@@ -74,9 +91,9 @@ The following table shows the C minor scale pattern starting with C on the 3rd f
 
 ### Pattern Summary
 
-**Notes:** C, D, E♭, F, G, A♭, B♭, C
-**Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, minor 6th, minor 7th, octave
-**Intervals:** W-H-W-W-H-W-W
+- **Notes:** C, D, E♭, F, G, A♭, B♭, C
+- **Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, minor 6th, minor 7th, octave
+- **Intervals:** W-H-W-W-H-W-W
 
 **Fret Pattern:**
 - **A string:** frets 3, 5, 6 → **C, D, E♭**
@@ -107,9 +124,9 @@ The following table shows the C harmonic minor scale pattern starting with C on 
 
 ### Pattern Summary
 
-**Notes:** C, D, E♭, F, G, A♭, B, C
-**Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, minor 6th, 7th, octave
-**Intervals:** W-H-W-W-H-W+H-H
+- **Notes:** C, D, E♭, F, G, A♭, B, C
+- **Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, minor 6th, 7th, octave
+- **Intervals:** W-H-W-W-H-W+H-H
 
 **Fret Pattern:**
 - **A string:** frets 3, 5, 6 → **C, D, E♭**
@@ -140,9 +157,9 @@ The following table shows the C melodic minor scale pattern starting with C on t
 
 ### Pattern Summary
 
-**Notes:** C, D, E♭, F, G, A, B, C
-**Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, 6th, 7th, octave
-**Intervals:** W-H-W-W-W-W-H
+- **Notes:** C, D, E♭, F, G, A, B, C
+- **Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, 6th, 7th, octave
+- **Intervals:** W-H-W-W-W-W-H
 
 **Fret Pattern:**
 - **A string:** frets 3, 5, 6 → **C, D, E♭**
@@ -173,9 +190,9 @@ The following table shows the C major pentatonic scale pattern starting with C o
 
 ### Pattern Summary
 
-**Notes:** C, D, E, G, A, C
-**Scale Degrees:** root, 2nd, 3rd, 5th, 6th, octave
-**Intervals:** W-W-m3-W-m3
+- **Notes:** C, D, E, G, A, C
+- **Scale Degrees:** root, 2nd, 3rd, 5th, 6th, octave
+- **Intervals:** W-W-m3-W-m3
 
 **Fret Pattern:**
 - **A string:** frets 3, 5 → **C, D**
@@ -206,9 +223,9 @@ The following table shows the C minor pentatonic scale pattern starting with C o
 
 ### Pattern Summary
 
-**Notes:** C, E♭, F, G, B♭, C
-**Scale Degrees:** root, minor 3rd, 4th, 5th, minor 7th, octave
-**Intervals:** m3-W-W-m3-W
+- **Notes:** C, E♭, F, G, B♭, C
+- **Scale Degrees:** root, minor 3rd, 4th, 5th, minor 7th, octave
+- **Intervals:** m3-W-W-m3-W
 
 **Fret Pattern:**
 - **A string:** frets 3, 6 → **C, E♭**
@@ -241,10 +258,10 @@ The following table shows the C Ionian mode pattern starting with C on the 3rd f
 | **A** |     |       | **C** |       | **D** |     |     |     |     |     |     |     |
 | **E** |     |       |       |       |       |     |     |     |     |     |     |     |
 
-**Notes:** C, D, E, F, G, A, B, C
-**Scale Degrees:** root, 2nd, 3rd, 4th, 5th, 6th, 7th, octave
-**Intervals:** W-W-H-W-W-W-H
-**Pattern:** A:3,5 D:2,3,5 G:2,4,5
+- **Notes:** C, D, E, F, G, A, B, C
+- **Scale Degrees:** root, 2nd, 3rd, 4th, 5th, 6th, 7th, octave
+- **Intervals:** W-W-H-W-W-W-H
+- **Pattern:** A:3,5 D:2,3,5 G:2,4,5
 
 ```tab
 G|----------2-4-5--|
@@ -264,10 +281,10 @@ The following table shows the C Dorian mode pattern starting with C on the 3rd f
 | **A** |     |       | **C** |       | **D** | **E♭** |     |     |     |     |     |     |
 | **E** |     |       |       |       |       |     |     |     |     |     |     |     |
 
-**Notes:** C, D, E♭, F, G, A, B♭, C
-**Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, 6th, minor 7th, octave
-**Intervals:** W-H-W-W-W-H-W
-**Pattern:** A:3,5,6 D:3,5 G:2,3,5
+- **Notes:** C, D, E♭, F, G, A, B♭, C
+- **Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, 6th, minor 7th, octave
+- **Intervals:** W-H-W-W-W-H-W
+- **Pattern:** A:3,5,6 D:3,5 G:2,3,5
 
 ```tab
 G|--------2-3-5----|
@@ -287,10 +304,10 @@ The following table shows the C Phrygian mode pattern starting with C on the 3rd
 | **A** |     |       | **C** | **D♭** |       | **E♭** |     |     |     |     |     |     |
 | **E** |     |       |       |       |       |     |     |     |     |     |     |     |
 
-**Notes:** C, D♭, E♭, F, G, A♭, B♭, C
-**Scale Degrees:** root, minor 2nd, minor 3rd, 4th, 5th, minor 6th, minor 7th, octave
-**Intervals:** H-W-W-W-H-W-W
-**Pattern:** A:3,4,6 D:3,5,6 G:3,5
+- **Notes:** C, D♭, E♭, F, G, A♭, B♭, C
+- **Scale Degrees:** root, minor 2nd, minor 3rd, 4th, 5th, minor 6th, minor 7th, octave
+- **Intervals:** H-W-W-W-H-W-W
+- **Pattern:** A:3,4,6 D:3,5,6 G:3,5
 
 ```tab
 G|--------3-5------|
@@ -310,10 +327,10 @@ The following table shows the C Lydian mode pattern starting with C on the 3rd f
 | **A** |     |       | **C** |       | **D** |     |     |     |     |     |     |     |
 | **E** |     |       |       |       |       |     |     |     |     |     |     |     |
 
-**Notes:** C, D, E, F♯, G, A, B, C
-**Scale Degrees:** root, 2nd, 3rd, sharp 4th, 5th, 6th, 7th, octave
-**Intervals:** W-W-W-H-W-W-H
-**Pattern:** A:3,5 D:2,4,5 G:2,4,5
+- **Notes:** C, D, E, F♯, G, A, B, C
+- **Scale Degrees:** root, 2nd, 3rd, sharp 4th, 5th, 6th, 7th, octave
+- **Intervals:** W-W-W-H-W-W-H
+- **Pattern:** A:3,5 D:2,4,5 G:2,4,5
 
 ```tab
 G|----------2-4-5--|
@@ -333,10 +350,10 @@ The following table shows the C Mixolydian mode pattern starting with C on the 3
 | **A** |     |       | **C** |       | **D** |     |     |     |     |     |     |     |
 | **E** |     |       |       |       |       |     |     |     |     |     |     |     |
 
-**Notes:** C, D, E, F, G, A, B♭, C
-**Scale Degrees:** root, 2nd, 3rd, 4th, 5th, 6th, minor 7th, octave
-**Intervals:** W-W-H-W-W-H-W
-**Pattern:** A:3,5 D:2,3,5 G:2,3,5
+- **Notes:** C, D, E, F, G, A, B♭, C
+- **Scale Degrees:** root, 2nd, 3rd, 4th, 5th, 6th, minor 7th, octave
+- **Intervals:** W-W-H-W-W-H-W
+- **Pattern:** A:3,5 D:2,3,5 G:2,3,5
 
 ```tab
 G|----------2-3-5--|
@@ -356,10 +373,10 @@ The following table shows the C Aeolian mode pattern starting with C on the 3rd 
 | **A** |     |       | **C** |       | **D** | **E♭** |     |     |     |     |     |     |
 | **E** |     |       |       |       |       |     |     |     |     |     |     |     |
 
-**Notes:** C, D, E♭, F, G, A♭, B♭, C
-**Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, minor 6th, minor 7th, octave
-**Intervals:** W-H-W-W-H-W-W
-**Pattern:** A:3,5,6 D:3,5,6 G:3,5
+- **Notes:** C, D, E♭, F, G, A♭, B♭, C
+- **Scale Degrees:** root, 2nd, minor 3rd, 4th, 5th, minor 6th, minor 7th, octave
+- **Intervals:** W-H-W-W-H-W-W
+- **Pattern:** A:3,5,6 D:3,5,6 G:3,5
 
 ```tab
 G|--------3-5------|
@@ -379,10 +396,10 @@ The following table shows the C Locrian mode pattern starting with C on the 3rd 
 | **A** |     |       | **C** | **D♭** |       | **E♭** |     |     |     |     |     |     |
 | **E** |     |       |       |       |       |     |     |     |     |     |     |     |
 
-**Notes:** C, D♭, E♭, F, G♭, A♭, B♭, C
-**Scale Degrees:** root, minor 2nd, minor 3rd, 4th, flat 5th, minor 6th, minor 7th, octave
-**Intervals:** H-W-W-H-W-W-W
-**Pattern:** A:3,4,6 D:3,4,6 G:3,5
+- **Notes:** C, D♭, E♭, F, G♭, A♭, B♭, C
+- **Scale Degrees:** root, minor 2nd, minor 3rd, 4th, flat 5th, minor 6th, minor 7th, octave
+- **Intervals:** H-W-W-H-W-W-W
+- **Pattern:** A:3,4,6 D:3,4,6 G:3,5
 
 ```tab
 G|--------3-5------|
