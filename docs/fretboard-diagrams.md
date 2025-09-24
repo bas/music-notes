@@ -7,11 +7,12 @@ This article demonstrates essential scale patterns on a 4-string bass guitar usi
 1. [Introduction](#introduction)
 2. [Fretboard Memorization Techniques](#fretboard-memorization-techniques)
 3. [Complete Fretboard Layout](#complete-fretboard-layout)
-4. [Scale Patterns](#scale-patterns)
-5. [Modal Patterns](#modal-patterns)
-6. [Quick Reference Summary](#quick-reference-summary)
-7. [Practice Recommendations](#practice-recommendations)
-8. [Appendix: Cycle of Fourths on Each String](#appendix-cycle-of-fourths-on-each-string)
+4. [Bass Tuning and the Cycle of Fourths Connection](#bass-tuning-and-the-cycle-of-fourths-connection)
+5. [Scale Patterns](#scale-patterns)
+6. [Modal Patterns](#modal-patterns)
+7. [Quick Reference Summary](#quick-reference-summary)
+8. [Practice Recommendations](#practice-recommendations)
+9. [Appendix: Cycle of Fourths on Each String](#appendix-cycle-of-fourths-on-each-string)
 
 ## How to Read and Play the Fretboard Diagrams
 
