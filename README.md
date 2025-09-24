@@ -13,12 +13,14 @@ While care has been taken to ensure accuracy, please be aware that as an AI-assi
 
 ## Table of Contents
 
+- [Fretboard Diagrams](./docs/fretboard-diagrams.md) - Complete bass fretboard reference with memorization techniques
 - [Keys and Scales](./docs/keys-and-scales.md)
 - [Intervals](./docs/intervals.md)
 - [Modes](./docs/modes.md)
 - [Pentatonic Scales](./docs/pentatonic-scales.md)
 - [Chords](./docs/chords.md)
 - [Seventh Chords](./docs/seventh-chords.md)
+- [Cycle of Fourths](./docs/cycle-of-fourths.md)
 
 ## Development
 
