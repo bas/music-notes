@@ -14,13 +14,13 @@ While care has been taken to ensure accuracy, please be aware that as an AI-assi
 ## Table of Contents
 
 - [Fretboard Diagrams](./docs/fretboard-diagrams.md) - Complete bass fretboard reference with memorization techniques
-- [Keys and Scales](./docs/keys-and-scales.md)
-- [Intervals](./docs/intervals.md)
-- [Modes](./docs/modes.md)
-- [Pentatonic Scales](./docs/pentatonic-scales.md)
-- [Chords](./docs/chords.md)
-- [Seventh Chords](./docs/seventh-chords.md)
-- [Cycle of Fourths](./docs/cycle-of-fourths.md)
+- [Keys and Scales](./docs/keys-and-scales.md) - Major and minor scales with practical TAB examples
+- [Intervals](./docs/intervals.md) - Understanding distances between notes and their musical relationships
+- [Modes](./docs/modes.md) - Seven modes of the major scale with characteristic sounds and applications
+- [Pentatonic Scales](./docs/pentatonic-scales.md) - Five-note scales essential for blues, rock, and jazz
+- [Chords](./docs/chords.md) - Basic triad construction and chord theory fundamentals
+- [Seventh Chords](./docs/seventh-chords.md) - Extended chords adding color and sophistication to progressions
+- [Cycle of Fourths](./docs/cycle-of-fourths.md) - Key relationships and harmonic progression patterns
 
 ## Development
 
