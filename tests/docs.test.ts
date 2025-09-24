@@ -178,3 +178,90 @@ describe.each(files)('TAB Examples in %s', (file) => {
     }
   });
 });
+
+// Function to parse table and extract notes with their fret positions
+const parseTable = (content: string): { string: 'E' | 'A' | 'D' | 'G', fret: number, note: string }[] => {
+  const tableNotes: { string: 'E' | 'A' | 'D' | 'G', fret: number, note: string }[] = [];
+  const lines = content.split('\n');
+  
+  let headerLine = -1;
+  let fretColumns: number[] = [];
+  
+  // Find the table header and extract fret positions
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (line && line.includes('| Fret ') && line.includes('|')) {
+      headerLine = i;
+      // Extract fret numbers from header
+      const headerParts = line.split('|').map(part => part.trim()).filter(part => part !== '' && part !== 'Fret');
+      for (const part of headerParts) {
+        const fretNum = parseInt(part);
+        if (!isNaN(fretNum)) {
+          fretColumns.push(fretNum);
+        }
+      }
+      break;
+    }
+  }
+  
+  if (headerLine === -1) return tableNotes;
+  
+  // Process string rows (skip header and separator line)  
+  for (let i = headerLine + 2; i < lines.length; i++) {
+    const line = lines[i];
+    if (!line || !line.includes('|')) break; // Stop at end of table
+    
+    const parts = line.split('|').map(part => part.trim());
+    // Remove empty first and last elements (before first | and after last |)
+    if (parts.length > 0 && parts[0] === '') parts.shift();
+    if (parts.length > 0 && parts[parts.length - 1] === '') parts.pop();
+    if (parts.length < 2) continue;
+    
+    const stringName = parts[0]?.replace(/\*\*/g, ''); // Remove markdown bold
+    if (!stringName || !['E', 'A', 'D', 'G'].includes(stringName)) continue;
+    
+    // Process each fret column (start from index 1, skip string name)
+    for (let fretIndex = 0; fretIndex < fretColumns.length && fretIndex + 1 < parts.length; fretIndex++) {
+      const cellContent = parts[fretIndex + 1]; // +1 to skip string name column
+      if (cellContent && cellContent.includes('**')) {
+        // Extract note from bold markdown
+        const noteMatch = cellContent.match(/\*\*([^*]+)\*\*/);
+        if (noteMatch && noteMatch[1]) {
+          tableNotes.push({
+            string: stringName as 'E' | 'A' | 'D' | 'G',
+            fret: fretColumns[fretIndex] || 0,
+            note: noteMatch[1].trim()
+          });
+        }
+      }
+    }
+  }
+  
+  return tableNotes;
+};
+
+describe.each(files)('Table Examples in %s', (file) => {
+  if (path.extname(file) !== '.md') {
+    return;
+  }
+
+  const content = fs.readFileSync(path.join(docsDir, file), 'utf-8');
+  const tables = parseTable(content);
+
+  if (tables.length === 0) {
+    it('has no table examples to test', () => {
+      expect(true).toBe(true); // Skip files with no table examples
+    });
+    return;
+  }
+
+  it('should have correct notes in fretboard tables', () => {
+    tables.forEach(({ string, fret, note }) => {
+      const expectedNote = getNoteFromFret(string, fret);
+      const normalizedTableNote = normalizeNote(note);
+      const normalizedExpectedNote = normalizeNote(expectedNote);
+      
+      expect(normalizedTableNote).toBe(normalizedExpectedNote);
+    });
+  });
+});
