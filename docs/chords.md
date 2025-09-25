@@ -4,6 +4,20 @@ Understanding chords is the key to unlocking your creativity as a bass player. W
 
 This guide will teach you how to move beyond playing just the root note and start creating interesting bass lines using arpeggios and walking bass techniques.
 
+## Table of Contents
+
+- [What are Chord Tones?](#what-are-chord-tones) *(Beginner)*
+- [Using Arpeggios to Outline Chords](#using-arpeggios-to-outline-chords) *(Beginner)*
+  - [Major Arpeggio (1-3-5)](#major-arpeggio-1-3-5)
+  - [Minor Arpeggio (1-b3-5)](#minor-arpeggio-1-b3-5)
+- [Putting It All Together: A I-IV-V Progression](#putting-it-all-together-a-i-iv-v-progression) *(Beginner)*
+- [The Rhythmic Power of the Root-Fifth-Octave](#the-rhythmic-power-of-the-root-fifth-octave) *(Intermediate)*
+- [Walking Bass Lines: Connecting the Chords](#walking-bass-lines-connecting-the-chords) *(Intermediate)*
+- [Adding Melodic Tension with Chromaticism](#adding-melodic-tension-with-chromaticism) *(Advanced)*
+- [Advanced Melodic Tension: Using Enclosures](#advanced-melodic-tension-using-enclosures) *(Advanced)*
+- [Creating Rhythmic Drive with Syncopation](#creating-rhythmic-drive-with-syncopation) *(Intermediate)*
+- [Advanced Rhythmic Tension: Polyrhythms](#advanced-rhythmic-tension-polyrhythms) *(Advanced)*
+
 ---
 
 ## What are Chord Tones?
@@ -30,9 +44,9 @@ Let's take a C Major chord (Notes: C-E-G). A simple bass line might just play th
 
 **Example: C Major Arpeggio**
 
-```
-The notes are C, E, G.
+**Notes:** C, E, G
 
+```tab
 G|---------|
 D|-----2-5-|
 A|---3-----|
@@ -41,7 +55,7 @@ E|---------|
 
 You can use this pattern to create a simple but effective bass line over a C Major chord:
 
-```
+```tab
   C (root)   E (3rd)    G (5th)    E (3rd)
 G|---------------------------------------|
 D|------------2----------5--------2------|
@@ -49,17 +63,19 @@ A|--3------------------------------------|
 E|---------------------------------------|
 ```
 
+**Fingering suggestion:** Use your index finger for fret 3 (C), middle finger for fret 2 (E), and ring finger for fret 5 (G).
+
 ### Minor Arpeggio (1-b3-5)
 
 A minor arpeggio uses the root, minor third, and perfect fifth. It has a sadder, more serious sound.
 
 Let's take a C minor chord (Notes: C-E♭-G).
 
-**Example: C minor Arpeggio**
+**Example: C Minor Arpeggio**
 
-```
-The notes are C, E♭, G.
+**Notes:** C, E♭, G
 
+```tab
 G|---------|
 D|-----1-5-|
 A|---3-----|
@@ -68,13 +84,15 @@ E|---------|
 
 Notice the fingering for the arpeggio itself doesn't change, but the notes and their relationship to the root do. Here is a bass line using the C minor arpeggio:
 
-```
+```tab
   C (root)  E♭ (b3rd)   G (5th)   E♭ (b3rd)
 G|---------------------------------------|
 D|-----------1-----------5--------1------|
 A|--3------------------------------------|
 E|---------------------------------------|
 ```
+
+**Fingering suggestion:** Use your index finger for fret 3 (C) and fret 1 (E♭), and ring finger for fret 5 (G).
 
 ---
 
@@ -102,7 +120,7 @@ A|-5-------7---------------|---------5---------------|
 E|-------------------------|-3-----------------------|
 ```
 
-In this corrected example, the bass line consistently outlines each chord with a three-note pattern:
+In this example, the bass line consistently outlines each chord with a three-note pattern:
 *   **G Major:** Plays G (root), D (5th), and G (octave).
 *   **C Major:** Plays C (root), G (5th), and C (octave).
 *   **D Major:** Plays D (root), A (5th), and D (octave).
@@ -121,20 +139,22 @@ By alternating between the root, the fifth, and the octave (the root played one 
 
 Let's apply this pattern to a G Major chord. This creates an instant feeling of momentum.
 
-```
-  G Major
+```tab
+  G Major (Root-Fifth-Octave)
   1 & 2 & 3 & 4 &
 G|-----------------|
-D|---5---5---5---5-|
-A|-----------------|
-E|-3---3---3---3---|
+D|---5-------5-----|
+A|-------5---------|
+E|-3-----------3---|
 ```
 
 **Breaking it down:**
 
-*   **Beats 1 & 3:** The low **G** (root) lands on the strong beats, providing a solid anchor.
-*   **Beats 2 & 4:** The higher **D** (the fifth) and **G** (the octave) create a "galloping" feel that drives the rhythm forward.
-*   This simple, repetitive pattern is incredibly effective at creating a high-energy, rhythmic foundation.
+*   **Beat 1:** The low **G** (root) provides a solid anchor.
+*   **"&" of 1:** The **D** (fifth) on the A string adds harmonic movement.
+*   **Beat 2:** The high **G** (octave) on the D string completes the triad.
+*   **Beat 3:** Return to the low **G** (root) to reinforce the foundation.
+*   This Root-Fifth-Octave pattern is incredibly effective at creating a high-energy, rhythmic foundation that outlines the full chord.
 
 ---
 
@@ -158,14 +178,14 @@ Let's say the chords change from C Major to F Major.
 
 Here's a simple walking bass line to connect them:
 
-```
+```tab
   Cmaj                      Fmaj
   1    2    3    4          1
 G|------------------------|-------------------|
 D|------------------------|-------------------|
 A|-3----5-----------------|-8-----------------|
-E|-----------5----7-------|-------------------|
-  C    E    G    E(b)      F
+E|-----------5----6-------|-------------------|
+  C    E    G    E♭        F
 ```
 
 **Breaking it down:**
@@ -173,7 +193,7 @@ E|-----------5----7-------|-------------------|
 *   **Beat 1:** We play **C** (the root of C Major).
 *   **Beat 2:** We play **E** (the 3rd of C Major).
 *   **Beat 3:** We play **G** (the 5th of C Major).
-*   **Beat 4:** We play **E(b)** (a chromatic passing note that leads smoothly to F).
+*   **Beat 4:** We play **E♭** (a chromatic passing note that leads smoothly to F).
 *   **Beat 1 (next bar):** We land on **F** (the root of F Major).
 
 By mastering chord tones and arpeggios, you can move beyond basic root-note patterns and start creating bass lines that are both supportive and musically interesting.
@@ -193,12 +213,12 @@ Let's expand on our walking bass line from C Major to F Major. This time, we'll 
 *   **C Major Chord Tones:** C, E, G
 *   **F Major Chord Tones:** F, A, C
 
-```
+```tab
   Cmaj                      Fmaj
   1    2    3    4          1
 G|------------------------|-------------------|
 D|------------------------|-------------------|
-A|-3----4----5----7-------|-8-----------------|
+A|-3----4----5----6-------|-8-----------------|
 E|------------------------|-------------------|
   C    C#   D    E♭        F
 ```

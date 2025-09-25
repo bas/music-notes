@@ -70,3 +70,9 @@ D|------------1-2-4-|
 A|------0-2-4-------|
 E|--2-4-------------|
 ```
+
+## Additional guidelines
+
+Always include a ToC for longer documents and make sure to keep it updated as trhe document evolves.
+
+Refer [Fretboard Diagrams][./docs/fretboard-diagrams.md] as a gold standard for our docs.
