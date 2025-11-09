@@ -1,107 +1,121 @@
+````markdown
 # Walking Bass Lines for "So What" - D Dorian and Eb Dorian
+*Simplified position-based patterns for bass guitar*
 
 ## D Dorian Walking Bass Lines (Dm7)
-*Note: These are played over 2 bars each in 4/4 time*
+*Note: These stay mostly in the 5th-8th fret area on the A string*
 
-### Line 1
+### Line 1 - Basic Root Movement
 ```
 G|------------------------|------------------------|
 D|------------------------|------------------------|
-A|------0---2---3---------|--5---3---2---0---------|
-E|--5------------------5--|------------------------|
-   1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
-```
-
-### Line 2
-```
-G|------------------------|------------------------|
-D|------------------------|------2---3---5---------|
-A|--5---7---5---3---------|--5---------------------|
+A|--5---5---7---7---------|--8---8---7---5---------|
 E|------------------------|------------------------|
    1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
 ```
 
-### Line 3
+### Line 2 - Classic Walk
 ```
 G|------------------------|------------------------|
 D|------------------------|------------------------|
-A|--5------3---2---0------|------2---3---5---------|
-E|------5-----------------|-3----------------------|
+A|--5---6---7---8---------|--7---6---5---7---------|
+E|------------------------|------------------------|
    1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
 ```
 
-### Line 4
+### Line 3 - With Lower Notes
 ```
 G|------------------------|------------------------|
-D|------------------------|--5---3---2-------------|
-A|------0---2---3---5-----|------------------5-----|
-E|--5---------------------|------------------------|
+D|------------------------|------------------------|
+A|--5---5---3---3---------|--5---7---8---7---------|
+E|------------------------|------------------------|
    1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
 ```
 
-### Line 5
+### Line 4 - Chromatic Approach
 ```
 G|------------------------|------------------------|
-D|--5---7---5-------------|------------------------|
-A|------------------7-----|--5---3---2---0---------|
-E|------------------------|------------------3---5-|
+D|------------------------|------------------------|
+A|--5---7---6---5---------|--4---5---6---7---------|
+E|------------------------|------------------------|
+   1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
+```
+
+### Line 5 - Simple & Strong
+```
+G|------------------------|------------------------|
+D|------------------------|------------------------|
+A|--5---5---8---8---------|--7---5---3---5---------|
+E|------------------------|------------------------|
    1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
 ```
 
 ## Eb Dorian Walking Bass Lines (Ebm7)
-*Note: These are one semitone (one fret) higher*
+*Note: These stay mostly in the 6th-9th fret area on the A string (one fret up from D Dorian)*
 
-### Line 1
+### Line 1 - Basic Root Movement
 ```
 G|------------------------|------------------------|
 D|------------------------|------------------------|
-A|------1---3---4---------|--6---4---3---1---------|
-E|--6------------------6--|------------------------|
-   1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
-```
-
-### Line 2
-```
-G|------------------------|------------------------|
-D|------------------------|------3---4---6---------|
-A|--6---8---6---4---------|--6---------------------|
+A|--6---6---8---8---------|--9---9---8---6---------|
 E|------------------------|------------------------|
    1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
 ```
 
-### Line 3
+### Line 2 - Classic Walk
 ```
 G|------------------------|------------------------|
 D|------------------------|------------------------|
-A|--6------4---3---1------|------3---4---6---------|
-E|------6-----------------|-4----------------------|
+A|--6---7---8---9---------|--8---7---6---8---------|
+E|------------------------|------------------------|
    1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
 ```
 
-### Line 4
+### Line 3 - With Lower Notes
 ```
 G|------------------------|------------------------|
-D|------------------------|--6---4---3-------------|
-A|------1---3---4---6-----|------------------6-----|
-E|--6---------------------|------------------------|
+D|------------------------|------------------------|
+A|--6---6---4---4---------|--6---8---9---8---------|
+E|------------------------|------------------------|
    1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
 ```
 
-### Line 5
+### Line 4 - Chromatic Approach
 ```
 G|------------------------|------------------------|
-D|--6---8---6-------------|------------------------|
-A|------------------8-----|--6---4---3---1---------|
-E|------------------------|------------------4---6-|
+D|------------------------|------------------------|
+A|--6---8---7---6---------|--5---6---7---8---------|
+E|------------------------|------------------------|
+   1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
+```
+
+### Line 5 - Simple & Strong
+```
+G|------------------------|------------------------|
+D|------------------------|------------------------|
+A|--6---6---9---9---------|--8---6---4---6---------|
+E|------------------------|------------------------|
    1  +  2  +  3  +  4  +   1  +  2  +  3  +  4  +
 ```
 
 ## Practice Tips:
 
-1. **Start slowly** - Play these at around 80-100 BPM with a metronome first
-2. **Note the chord tones** - D, F, A, C for D Dorian and Eb, Gb, Bb, Db for Eb Dorian
-3. **Listen for the modal character** - The natural 6th degree (B natural in D Dorian, C natural in Eb Dorian) gives the Dorian its distinctive sound
-4. **Mix and match** - You can combine different bars from different lines to create variations
-5. **Add your own chromatic passing tones** once you're comfortable with the basic patterns
+1. **All on the A string** - These patterns stay on one string for easier position playing
+2. **Fret markers** - Use the 5th and 7th fret dots as visual references
+3. **One finger per fret** - In the 5th-8th fret area, assign one finger to each fret
+4. **Root notes** - D is at the 5th fret, Eb is at the 6th fret on the A string
+5. **Start with Line 1** - It's the simplest and establishes the root-fifth relationship
+6. **Tempo** - Begin at 80-100 BPM and gradually increase speed
+7. **Modal notes to emphasize**:
+   - D Dorian: B natural (7th fret) gives the characteristic Dorian sound
+   - Eb Dorian: C natural (8th fret) gives the characteristic Dorian sound
 
-These walking bass lines emphasize the root and fifth while incorporating characteristic Dorian mode notes. They'll give you a solid foundation for playing over this classic modal jazz piece!
+## Quick Reference - Important Notes:
+- **D Dorian chord tones**: D (5th fret), F (8th fret), A (12th fret), C (3rd fret)
+- **Eb Dorian chord tones**: Eb (6th fret), Gb (9th fret), Bb (1st fret), Db (4th fret)
+
+*Created for practicing "So What" by Miles Davis*
+*Date: 2025-11-09*
+````
+
+This is now a complete, clean markdown file ready to be pasted into a GitHub Gist. The simplified bass lines stay in comfortable positions and avoid the notation redundancy you mentioned. Just copy this entire block and create your Gist at https://gist.github.com!
