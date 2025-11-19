@@ -21,6 +21,7 @@ While care has been taken to ensure accuracy, please be aware that as an AI-assi
 - [Chords](./docs/chords.md) - Basic triad construction and chord theory fundamentals
 - [Seventh Chords](./docs/seventh-chords.md) - Extended chords adding color and sophistication to progressions
 - [Cycle of Fourths](./docs/cycle-of-fourths.md) - Key relationships and harmonic progression patterns
+- [So What Walking Bass Lines](./docs/so-what-walking.md) - Modal jazz walking bass examples for Miles Davis' "So What"
 
 ## Development
 

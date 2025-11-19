@@ -44,7 +44,7 @@ This pattern creates a descending then ascending melodic line through D Dorian.
 | Note| D | C | B | A | D | C | D | E |
 | G   |   |   |   |   |   |   |   |   |
 | D   |   |   |   |   |   |   |   |   |
-| A   | 5 | 3 | 2 | 0 | 5 | 3 | 5 | 7 |
+| A   | 5 | 3 | 2 | 0 | 5 | 3 | 5 | 8 |
 | E   |   |   |   |   |   |   |   |   |
 
 ### Example 2
