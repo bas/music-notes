@@ -19,16 +19,153 @@ const STRING_NOTES: { [str: string]: number } = {
 };
 
 // Function to normalize enharmonic equivalents
-const normalizeNote = (note: string): string => {
-  const enharmonicMap: { [key: string]: string } = {
-    'C♯': 'D♭', 'C#': 'D♭', 'D♭': 'D♭', 'Db': 'D♭',
-    'D♯': 'E♭', 'D#': 'E♭', 'E♭': 'E♭', 'Eb': 'E♭', 
-    'F♯': 'G♭', 'F#': 'G♭', 'G♭': 'G♭', 'Gb': 'G♭',
-    'G♯': 'A♭', 'G#': 'A♭', 'A♭': 'A♭', 'Ab': 'A♭',
-    'A♯': 'B♭', 'A#': 'B♭', 'B♭': 'B♭', 'Bb': 'B♭'
+  const normalizeNote = (note: string | undefined): string => {
+    if (!note) return '';
+    
+    // First convert unicode symbols to text
+    const textNote = note.replace('♭', 'b').replace('♯', '#');
+    
+    // Then normalize enharmonic equivalents to sharps for consistency
+    const enharmonicMap: { [key: string]: string } = {
+      'Db': 'C#', 'D♭': 'C#', 
+      'Eb': 'D#', 'E♭': 'D#', 
+      'Gb': 'F#', 'G♭': 'F#', 
+      'Ab': 'G#', 'A♭': 'G#', 
+      'Bb': 'A#', 'B♭': 'A#'
+    };
+    
+    return enharmonicMap[textNote] || textNote;
   };
-  return enharmonicMap[note] || note;
-};
+
+  interface WalkingBassPosition {
+    string: string;
+    fret: number;
+  }
+
+  interface WalkingBassPattern {
+    expectedNotes: string[];
+    positions: WalkingBassPosition[];
+  }
+
+  interface WalkingBassTable {
+    title?: string;
+    patterns: WalkingBassPattern[];
+  }
+
+  const parseWalkingBassTable = (content: string): WalkingBassTable[] => {
+    const tables: WalkingBassTable[] = [];
+    const lines = content.split('\n');
+    
+    for (let i = 0; i < lines.length; i++) {
+      const currentLine = lines[i];
+      if (!currentLine) continue;
+      const line = currentLine.trim();
+      
+      // Look for walking bass table pattern: beat numbers in first row
+      if (line.includes('| 1 | 2 | 3 | 4 | 1 | 2 | 3 | 4 |')) {
+        // Verify this is followed by a separator line and Note row
+        const separatorLine = lines[i + 1];
+        const noteLine = lines[i + 2];
+        
+        if (separatorLine && separatorLine.includes('---|') && 
+            noteLine && (noteLine.startsWith('| Note|') || noteLine.startsWith('|Note|'))) {
+          
+          // Found a valid walking bass table
+          // Find the table title (look backwards for a heading)
+          let title = '';
+          for (let j = i - 1; j >= 0 && j >= i - 10; j--) {
+            const prevLineRaw = lines[j];
+            if (!prevLineRaw) continue;
+            const prevLine = prevLineRaw.trim();
+            if (prevLine.startsWith('#')) {
+              title = prevLine.replace(/^#+\s*/, '');
+              break;
+            }
+          }
+          
+          // If no title found, use line number for identification
+          if (!title) {
+            title = `Line ${i + 3}`;
+          }
+
+          // Move to Note row (skip beat row and separator)
+          const noteRowIndex = i + 2;
+          const noteRow = lines[noteRowIndex];
+          if (!noteRow) continue;
+
+          // Parse the Note row to get expected notes
+          const noteCells = noteRow.split('|').map(cell => cell.trim()).filter(cell => cell !== '');
+          const expectedNotes: string[] = noteCells.slice(1); // Skip the "Note" cell itself
+          const positions: WalkingBassPosition[] = [];
+
+          // Parse the following string rows (G, D, A, E)
+          const stringNames = ['G', 'D', 'A', 'E'];
+          const stringData: { [key: string]: (number | null)[] } = {};
+
+          for (let stringIndex = 0; stringIndex < stringNames.length; stringIndex++) {
+            const stringRowIndex = noteRowIndex + 1 + stringIndex;
+            if (stringRowIndex >= lines.length) break;
+            
+            const stringLineRaw = lines[stringRowIndex];
+            if (!stringLineRaw) break;
+            const stringLine = stringLineRaw.trim();
+            const stringName = stringNames[stringIndex];
+            if (!stringName) continue;
+            
+            if (stringLine.includes(`| ${stringName} `) || stringLine.includes(`|${stringName} `)) {
+              const cells = stringLine.split('|').map(cell => cell.trim());
+              // Skip first empty cell and string name cell, keep all data cells including empty ones
+              const dataCells = cells.slice(2, -1); // Remove first empty, string name, and last empty
+              const fretValues = dataCells.map(cell => {
+                if (cell === '' || cell === ' ' || isNaN(parseInt(cell))) {
+                  return null;
+                }
+                return parseInt(cell);
+              });
+              stringData[stringName] = fretValues;
+            }
+          }
+
+          // Match fret positions with expected notes
+          for (let noteIndex = 0; noteIndex < expectedNotes.length; noteIndex++) {
+            // Find which string has a fret value for this note position
+            let foundString = '';
+            let foundFret = -1;
+            
+            for (const [stringName, fretValues] of Object.entries(stringData)) {
+              if (noteIndex < fretValues.length && fretValues[noteIndex] !== null && fretValues[noteIndex] !== undefined) {
+                foundString = stringName;
+                foundFret = fretValues[noteIndex] as number;
+                break;
+              }
+            }
+            
+            if (foundString && foundFret >= 0) {
+              positions.push({ 
+                string: foundString, 
+                fret: foundFret 
+              });
+            }
+          }
+
+          if (expectedNotes.length > 0 && positions.length === expectedNotes.length) {
+            tables.push({
+              title,
+              patterns: [{
+                expectedNotes,
+                positions
+              }]
+            });
+          }
+          
+          // Skip ahead past this table
+          i = noteRowIndex + 4; // Skip past the 4 string rows
+        }
+      }
+    }
+    
+    return tables;
+  };
 
 const getNoteFromFret = (string: 'E' | 'A' | 'D' | 'G', fret: number): string => {
   const stringValue = STRING_NOTES[string];
@@ -163,14 +300,18 @@ describe.each(files)('TAB Examples in %s', (file) => {
       const uniqueTabNotes = [...new Set(normalizedTabNotes)];
       const uniqueExpectedNotes = [...new Set(normalizedExpectedNotes)];
       
+      // Normalize both sets for comparison
+      const normalizedExpected = uniqueExpectedNotes.map(note => normalizeNote(note));
+      const normalizedTab = uniqueTabNotes.map(note => normalizeNote(note));
+      
       // All expected notes should be present in the tab
-      uniqueExpectedNotes.forEach(expectedNote => {
-        expect(uniqueTabNotes).toContain(expectedNote);
+      normalizedExpected.forEach(expectedNote => {
+        expect(normalizedTab).toContain(expectedNote);
       });
       
       // All notes in the tab should be expected notes
-      uniqueTabNotes.forEach(tabNote => {
-        expect(uniqueExpectedNotes).toContain(tabNote);
+      normalizedTab.forEach(tabNote => {
+        expect(normalizedExpected).toContain(tabNote);
       });
       
       // Should have the same number of unique notes
@@ -248,20 +389,41 @@ describe.each(files)('Table Examples in %s', (file) => {
   const content = fs.readFileSync(path.join(docsDir, file), 'utf-8');
   const tables = parseTable(content);
 
-  if (tables.length === 0) {
+  // Test walking bass tables using the new generic parser
+  const walkingBassTables = parseWalkingBassTable(content);
+  
+  if (tables.length === 0 && walkingBassTables.length === 0) {
     it('has no table examples to test', () => {
       expect(true).toBe(true); // Skip files with no table examples
     });
     return;
   }
 
-  it('should have correct notes in fretboard tables', () => {
-    tables.forEach(({ string, fret, note }) => {
-      const expectedNote = getNoteFromFret(string, fret);
-      const normalizedTableNote = normalizeNote(note);
-      const normalizedExpectedNote = normalizeNote(expectedNote);
-      
-      expect(normalizedTableNote).toBe(normalizedExpectedNote);
+  if (tables.length > 0) {
+    it('should have correct notes in fretboard tables', () => {
+      tables.forEach(({ string, fret, note }) => {
+        const expectedNote = getNoteFromFret(string, fret);
+        const normalizedTableNote = normalizeNote(note);
+        const normalizedExpectedNote = normalizeNote(expectedNote);
+        
+        expect(normalizedTableNote).toBe(normalizedExpectedNote);
+      });
     });
-  });
+  }
+
+  if (walkingBassTables.length > 0) {
+    describe('Walking Bass Table Examples', () => {
+      walkingBassTables.forEach((table, tableIndex) => {
+        it(`should have correct fret positions for table ${tableIndex + 1}${table.title ? ` - ${table.title}` : ''}`, () => {
+          table.patterns.forEach((pattern, patternIndex) => {
+            pattern.positions.forEach((position, posIndex) => {
+              const actualNote = getNoteFromFret(position.string as 'E' | 'A' | 'D' | 'G', position.fret);
+              expect(actualNote).toBeDefined();
+              expect(normalizeNote(actualNote!)).toBe(normalizeNote(pattern.expectedNotes[posIndex]));
+            });
+          });
+        });
+      });
+    });
+  }
 });
