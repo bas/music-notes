@@ -182,6 +182,20 @@ This pattern uses descending intervals with repeated notes for a smooth walking 
 | A   |   | 8 |   | 8 | 5 | 3 | 5 | 3 |
 | E   |   |   |   |   |   |   |   |   |
 
+### Example 10
+
+This pattern uses an alternating D-C motif followed by a stepwise ascending line.
+
+|     | 1   | 2 | 3 | 4 | 1 | 2 | 3 | 4 |
+|-----|-----|---|---|---|---|---|---|---|
+| Note| D-C | D | E | F | G | A | C | D |
+| G   |     |   |   |   |   |   | 5 | 7 |
+| D   |     |   |   |   | 5 | 7 |   |   |
+| A   | 5-3 | 5 | 7 | 8 |   |   |   |   |
+| E   |     |   |   |   |   |   |   |   |
+
+**Beat 1**: Two quick notes (D-C) played as eighth notes
+
 ## Appendix: Understanding Modal Jazz
 
 A **mode** in jazz refers to a type of scale that serves as the harmonic foundation for improvisation and composition. Unlike traditional jazz which relies on frequent chord changes, modal jazz uses modes (which are variations of the major scale starting from different degrees) as the primary basis for creating melodies and harmonies.
