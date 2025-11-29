@@ -19,6 +19,7 @@ While care has been taken to ensure accuracy, please be aware that as an AI-assi
 - [Modes](./docs/modes.md) - Seven modes of the major scale with characteristic sounds and applications
 - [Pentatonic Scales](./docs/pentatonic-scales.md) - Five-note scales essential for blues, rock, and jazz
 - [Chords](./docs/chords.md) - Basic triad construction and chord theory fundamentals
+- [C Major Triads](./docs/c-major-triads.md) - Complete fingering guide for all triads in the C major scale
 - [Seventh Chords](./docs/seventh-chords.md) - Extended chords adding color and sophistication to progressions
 - [Cycle of Fourths](./docs/cycle-of-fourths.md) - Key relationships and harmonic progression patterns
 - [So What Walking Bass Lines](./docs/so-what-walking.md) - Modal jazz walking bass examples for Miles Davis' "So What"
